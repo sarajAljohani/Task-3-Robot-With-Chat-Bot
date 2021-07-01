@@ -1,0 +1,166 @@
+body{
+    font-family:sans-serif;
+    text-align:center;
+    background-color:#eeeeee;
+    font-size:large;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    /* grid-template-rows: 1fr 1fr; */
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    position: absolute;
+    height:80% ;
+
+}
+.panel{
+    padding: 0px;
+    margin: 0px;
+    min-width: 300px;
+    
+}
+h2{
+    text-transform: capitalize;
+    align-self: flex-start;
+    font-size: 25px;
+}
+
+fieldset{
+    padding:20px;
+    width:75%;
+    height: 425px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:30px;
+    margin-bottom:30px;
+    background-color:#dadada;
+    border-radius:5px;
+}
+
+label{
+    display:inline-block;
+    text-align: center;
+    width:20%;
+}
+
+.engin{
+    height:30px;
+    margin:20px;
+}
+
+.engin input{
+    width:45%;
+}
+
+.btns{
+     margin-top:25px;
+}
+
+.btns input{
+   display:inline-block;
+   background-color: #000;
+   padding: 5px;
+   color:#fff;
+   width:30%;
+   border-radius:5px;
+   margin-right:3%;
+}
+
+.btns input:hover{
+    background-color:#fff;
+    color:#000;
+    font-weight:bold;
+    cursor:pointer;
+}
+.angle{
+    color:#000;
+    border:2px solid #000;
+    background-color:#cfd8dc;
+    display:inline-block;
+    width:35px;
+}
+
+.angle:hover{
+    background-color:#eeeeee;
+}
+
+.movement-btns{
+    display: grid;
+    grid-template-columns: repeat(3, calc(100%/3));
+    justify-content: center;
+    align-content: flex-end;
+    row-gap: 12px;
+    height: 300px;
+    width: 100%;
+}
+
+.movement-btns .btn input{
+    padding: 23px 15px;
+    width: 90%;
+    border-radius: 30%;
+    background-color: #000;
+    color: #4caf50;
+    cursor: pointer;    
+    /* font-size: 15px; */
+}
+
+.movement-btns .btn input:hover{
+    background-color: #4caf50;
+    color:#fff;
+
+}
+.forward{
+    grid-column: 2;
+}
+
+.left{
+    grid-column: 1;
+    grid-row: 2; 
+}
+
+.stop{
+    grid-column: 2;
+}
+.movement-btns .stop input{
+    color:#f00;
+    padding: 23px 15px;
+}
+
+.movement-btns .stop input:hover{
+    background-color: red;
+    color:#fff;
+}
+.movement-btns .btn .active-stop{
+    background-color: red;
+    color:#fff;
+}
+.movement-btns  .btn .active-move{
+    background-color: #4caf50;
+    color:#fff;
+}
+.back{
+    grid-column: 2;
+}
+
+@media only screen and (max-width: 650px){
+    body{
+        
+        grid-template-columns: 100%;
+        grid-template-rows: 2fr 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+    .panel{
+        margin:10px auto;
+    }
+
+    body:last-child{
+        height: 10vh;
+    }
+    label{
+        width:30%;
+    }
+}

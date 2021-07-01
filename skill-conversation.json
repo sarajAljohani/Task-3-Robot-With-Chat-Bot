@@ -1,0 +1,1036 @@
+{
+  "intents": [
+    {
+      "intent": "Angles",
+      "examples": [
+        {
+          "text": "angle"
+        },
+        {
+          "text": "angles"
+        },
+        {
+          "text": "arms angles"
+        },
+        {
+          "text": "numbers"
+        },
+        {
+          "text": "what is the benefit of those numbers"
+        },
+        {
+          "text": "what is the numbers for?"
+        },
+        {
+          "text": "what is the numbers next to bars"
+        },
+        {
+          "text": "what unit used"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Arm",
+      "examples": [
+        {
+          "text": "hot to control arm"
+        },
+        {
+          "text": "how can i move robot's arm?"
+        },
+        {
+          "text": "how i can control robot's arm"
+        },
+        {
+          "text": "how to move robot's arm base"
+        },
+        {
+          "text": "how to move robot's elbow"
+        },
+        {
+          "text": "how to move robot's sholder"
+        },
+        {
+          "text": "how to move robot's wrist"
+        },
+        {
+          "text": "move arm"
+        },
+        {
+          "text": "move arm base"
+        },
+        {
+          "text": "move elbow"
+        },
+        {
+          "text": "move shoulder"
+        },
+        {
+          "text": "move wrist"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Base-movement",
+      "examples": [
+        {
+          "text": "can you help me with moving base?"
+        },
+        {
+          "text": "Control Base"
+        },
+        {
+          "text": "how to make the robot move backward"
+        },
+        {
+          "text": "how to make the robot move forward"
+        },
+        {
+          "text": "how to make the robot move left"
+        },
+        {
+          "text": "how to make the robot move right"
+        },
+        {
+          "text": "how to make the whole robot move?"
+        },
+        {
+          "text": "how to move robot's base"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Bye",
+      "examples": [
+        {
+          "text": "bye"
+        },
+        {
+          "text": "Good bye"
+        },
+        {
+          "text": "see you soon"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Credit",
+      "examples": [
+        {
+          "text": "contact"
+        },
+        {
+          "text": "Credit"
+        },
+        {
+          "text": "developer"
+        },
+        {
+          "text": "owner"
+        },
+        {
+          "text": "what's developer's name?"
+        },
+        {
+          "text": "who made this project"
+        },
+        {
+          "text": "who made this site?"
+        },
+        {
+          "text": "who own this"
+        },
+        {
+          "text": "who worked on this?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Current-state",
+      "examples": [
+        {
+          "text": "current state"
+        },
+        {
+          "text": "how to know if the robot is moving or not"
+        },
+        {
+          "text": "is robot's moving right now?"
+        },
+        {
+          "text": "state"
+        },
+        {
+          "text": "what is robot's current state?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "feedback",
+      "examples": [
+        {
+          "text": "can i give you stars?"
+        },
+        {
+          "text": "feeedback"
+        },
+        {
+          "text": "how to give you feedback"
+        },
+        {
+          "text": "how to rate this site"
+        },
+        {
+          "text": "rate"
+        },
+        {
+          "text": "stars"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "greeting",
+      "examples": [
+        {
+          "text": "good evening"
+        },
+        {
+          "text": "good morning"
+        },
+        {
+          "text": "Hay"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hey"
+        },
+        {
+          "text": "Hi"
+        },
+        {
+          "text": "hi there"
+        },
+        {
+          "text": "what's up"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "grip",
+      "examples": [
+        {
+          "text": "close grip"
+        },
+        {
+          "text": "control grip"
+        },
+        {
+          "text": "how to close robot's grip"
+        },
+        {
+          "text": "how to open robot's grip"
+        },
+        {
+          "text": "open grip"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Overview",
+      "examples": [
+        {
+          "text": "brief"
+        },
+        {
+          "text": "overview"
+        },
+        {
+          "text": "summary"
+        },
+        {
+          "text": "tell me about this robot"
+        },
+        {
+          "text": "what is this project?"
+        },
+        {
+          "text": "what is this robot?"
+        },
+        {
+          "text": "what is this site?"
+        },
+        {
+          "text": "why this project was built"
+        },
+        {
+          "text": "why this project was developed"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Save-Run",
+      "examples": [
+        {
+          "text": "how to execute changes"
+        },
+        {
+          "text": "how to run changes"
+        },
+        {
+          "text": "how to save arm's position"
+        },
+        {
+          "text": "how to save robot's position?"
+        },
+        {
+          "text": "how to save robot's state?"
+        },
+        {
+          "text": "how to start moving the arm"
+        },
+        {
+          "text": "what does operate do?"
+        },
+        {
+          "text": "what does save do?"
+        },
+        {
+          "text": "what's the use of operate button"
+        },
+        {
+          "text": "what's the use of save button"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Services",
+      "examples": [
+        {
+          "text": "can you help me to move the robot?"
+        },
+        {
+          "text": "how to control the robot?"
+        },
+        {
+          "text": "how to move robot's arm"
+        },
+        {
+          "text": "how to save robots state ?"
+        },
+        {
+          "text": "I don't know how to use this site"
+        },
+        {
+          "text": "Services"
+        },
+        {
+          "text": "start moving"
+        },
+        {
+          "text": "what can I do?"
+        },
+        {
+          "text": "what services can you provide?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Stop",
+      "examples": [
+        {
+          "text": "how to make the robot stop"
+        },
+        {
+          "text": "how to turn robot off"
+        },
+        {
+          "text": "shut down"
+        },
+        {
+          "text": "stop moving"
+        },
+        {
+          "text": "turn off"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Technologies",
+      "examples": [
+        {
+          "text": "css"
+        },
+        {
+          "text": "database"
+        },
+        {
+          "text": "how this project was developed"
+        },
+        {
+          "text": "html"
+        },
+        {
+          "text": "javascript"
+        },
+        {
+          "text": "php"
+        },
+        {
+          "text": "technologies"
+        },
+        {
+          "text": "what technologies used in this project"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Thanks",
+      "examples": [
+        {
+          "text": "thanks"
+        },
+        {
+          "text": "thank you"
+        },
+        {
+          "text": "that was helpful"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "feedback",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "dissatisfied",
+          "synonyms": [
+            "angry",
+            "displeased",
+            "frustrated",
+            "not happy",
+            "unhappy",
+            "unimpressed",
+            "unsatisfied"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "satisfied",
+          "synonyms": [
+            "normal",
+            "unimpressed",
+            "unnerved"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "very satisfied",
+          "synonyms": [
+            "amazed",
+            "amazing",
+            "awesome",
+            "delighted",
+            "enjoyed",
+            "excellent",
+            "exciting",
+            "extraordinary",
+            "good",
+            "happy",
+            "impressed",
+            "incredible",
+            "overjoyed",
+            "pleased"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_10_1624990810535",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "very satisfied",
+                "value": {
+                  "input": {
+                    "text": "very satisfied"
+                  }
+                }
+              },
+              {
+                "label": "satisfied",
+                "value": {
+                  "input": {
+                    "text": "satisfied"
+                  }
+                }
+              },
+              {
+                "label": "dissatisfied",
+                "value": {
+                  "input": {
+                    "text": "dissatisfied"
+                  }
+                }
+              }
+            ],
+            "description": "how was your experience ?",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_3_1625041396551",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1625041396567",
+      "previous_sibling": "handler_3_1625041396567"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1625041396551",
+      "context": {
+        "feedback": "@feedback"
+      },
+      "conditions": "@feedback",
+      "event_name": "input",
+      "dialog_node": "handler_3_1625041396567"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello. How can I help you?"
+              },
+              {
+                "text": "Hi. How can I help you?"
+              },
+              {
+                "text": "Welcome. How can I help you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#greeting",
+      "dialog_node": "node_10_1624990810535",
+      "previous_sibling": "node_3_1624992090804"
+    },
+    {
+      "type": "standard",
+      "title": "Thanks",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "It was a pleasure 😊"
+              },
+              {
+                "text": "You're very welcome 😊"
+              },
+              {
+                "text": "Helping you is my job 🙂"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#Thanks",
+      "dialog_node": "node_2_1624997303321",
+      "previous_sibling": "node_5_1624997492403"
+    },
+    {
+      "type": "standard",
+      "title": "Services and Features",
+      "output": {
+        "generic": [
+          {
+            "title": "Services",
+            "options": [
+              {
+                "label": "move robot's arm",
+                "value": {
+                  "input": {
+                    "text": "Control Arm"
+                  }
+                }
+              },
+              {
+                "label": "move robot's base",
+                "value": {
+                  "input": {
+                    "text": "Control Base"
+                  }
+                }
+              },
+              {
+                "label": "force robot to stop moving",
+                "value": {
+                  "input": {
+                    "text": "Stop moving"
+                  }
+                }
+              }
+            ],
+            "description": "You can do one of three things",
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#Services",
+      "dialog_node": "node_3_1624992090804",
+      "previous_sibling": "node_9_1624993779239"
+    },
+    {
+      "type": "standard",
+      "title": "Save-Run",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "From  the left side :"
+              },
+              {
+                "text": "1. make sure to adjust robot's position "
+              },
+              {
+                "text": "2. click on Save button to only preserve position"
+              },
+              {
+                "text": "3. click on Operate to make it move⚡"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#Save-Run",
+      "dialog_node": "node_3_1624994878430",
+      "previous_sibling": "node_5_1624995566322"
+    },
+    {
+      "type": "standard",
+      "title": "angles",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The number are represent angle in degrees for  each part of the arm"
+              },
+              {
+                "text": ""
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "Try to move the arm by changing their values."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Angles",
+      "dialog_node": "node_3_1625043924751",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Base",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "From the right Box that have black buttons: \nclick on the direction you want, the robot will move that way.\nIt's as simple as that😊."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#Base-movement",
+      "dialog_node": "node_4_1624992959181",
+      "previous_sibling": "node_9_1624994451433"
+    },
+    {
+      "type": "frame",
+      "title": "feedback",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thanks for you feedback 🙏🏻"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#feedback",
+      "dialog_node": "node_4_1625041349783",
+      "previous_sibling": "node_4_1625043465246"
+    },
+    {
+      "type": "standard",
+      "title": "Current-state",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "To know the current state of the robot you should look at the green text that indicate robot's current state  in the bottom right of you window👉🏻👇🏻"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#Current-state",
+      "dialog_node": "node_4_1625043465246",
+      "previous_sibling": "node_3_1625043924751"
+    },
+    {
+      "type": "standard",
+      "title": "Grip",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Control Grip:"
+              },
+              {
+                "text": "1. Open by make angle bar at 90deg"
+              },
+              {
+                "text": "2. Close by make angle bar at 0deg "
+              },
+              {
+                "text": "3. Feel free to chose the angle you like👌."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#grip",
+      "dialog_node": "node_5_1624995566322",
+      "previous_sibling": "node_2_1624997303321"
+    },
+    {
+      "type": "standard",
+      "title": "Bye",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good bye👋🏻"
+              },
+              {
+                "text": "Feel free to ask me for help any time 🙂"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Bye",
+      "dialog_node": "node_5_1624997492403",
+      "previous_sibling": "node_7_1624997865952"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The technologies used in this project are:"
+              },
+              {
+                "text": "1. html\n2. css\n3. javascript\n4. php\n5. mysql"
+              },
+              {
+                "text": "And much of love💜"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#Technologies",
+      "dialog_node": "node_6_1624998958271",
+      "previous_sibling": "node_6_1625040776183"
+    },
+    {
+      "type": "standard",
+      "title": "Credit",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Made with 💙 by Sara Aljohani"
+              },
+              {
+                "text": "Email: Sarajazaa865\\@gmail.com"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#Credit",
+      "dialog_node": "node_6_1625040776183",
+      "previous_sibling": "node_4_1625041349783"
+    },
+    {
+      "type": "standard",
+      "title": "Overview",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "This project consist of single robot, controlled remotely from this site."
+              },
+              {
+                "text": "It has two control panels,  for arm and  base.\nThis fighting robot was mainly a training project."
+              },
+              {
+                "text": "to help you understand how it works consider looking at these images"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "title": "Robot's Arm",
+            "source": "https://raw.githubusercontent.com/smart-methods/arduino_robot_arm/main/positions.png",
+            "response_type": "image"
+          },
+          {
+            "title": "Robot's Base",
+            "source": "https://i.pinimg.com/originals/26/76/d5/2676d50e91d32c818933a003b1e785e0.jpg",
+            "response_type": "image"
+          }
+        ]
+      },
+      "conditions": "#Overview",
+      "dialog_node": "node_7_1624997865952",
+      "previous_sibling": "node_6_1624998958271"
+    },
+    {
+      "type": "standard",
+      "title": "Stop",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Click on the black middle button that says 'stop' from the right side of the page. 🛑 "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Stop",
+      "dialog_node": "node_9_1624993779239",
+      "previous_sibling": "node_4_1624992959181"
+    },
+    {
+      "type": "standard",
+      "title": "Arm",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "From the left side of your window:\n1. adjust the range bar next to the part you want to move \n2. then click on Operate button"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#Arm",
+      "dialog_node": "node_9_1624994451433",
+      "previous_sibling": "node_3_1624994878430"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_4_1625041349783",
+      "variable": "$feedback",
+      "dialog_node": "slot_3_1625041396551"
+    },
+    {
+      "type": "standard",
+      "title": "Welcom",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi. I'm Mr Bot, I'm here to provide you with some useful information and tips regarding this project.        Try to ask me something 🙂."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Services",
+                "value": {
+                  "input": {
+                    "text": "Services"
+                  }
+                }
+              },
+              {
+                "label": "Overview",
+                "value": {
+                  "input": {
+                    "text": "Overview"
+                  }
+                }
+              },
+              {
+                "label": "Technologies used",
+                "value": {
+                  "input": {
+                    "text": "Technology"
+                  }
+                }
+              },
+              {
+                "label": "Credit",
+                "value": {
+                  "input": {
+                    "text": "what's the developer's name?"
+                  }
+                }
+              }
+            ],
+            "description": "or you can choose ",
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "off_topic": {
+      "enabled": true
+    },
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "None of the above"
+    },
+    "human_agent_assist": {
+      "prompt": "Did you mean:"
+    },
+    "intent_classification": {
+      "training_backend_version": "v2"
+    },
+    "spelling_auto_correct": true
+  },
+  "learning_opt_out": false,
+  "name": "conversation",
+  "language": "en",
+  "description": ""
+}
